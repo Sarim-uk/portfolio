@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | CS Graduate & Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="particles-container" id="particles-js"></div>
+
+    <header>
+        <nav id="main-nav">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="text-content">
+                    <h1 class="greeting">
+                        <span class="static-text">Hi, I'm </span>
+                        <span class="name">Sarim.uk!</span>
+                    </h1>
+                    <div class="dynamic-text-container">
+                        <span id="dynamic-text" class="dynamic-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="tagline">Turning complex problems into simple, elegant solutions.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary-btn">View Projects</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="profile-container">
+                    <div class="profile-photo">
+                        <!-- Personal profile image -->
+                        <img src="images/me.jpg" alt="Sarim - Software Engineer and AI Enthusiast" class="profile-image">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-content">
+                    <div class="about-text fade-in">
+                        <p>I'm a Computer Science graduate passionate about Artificial Intelligence, Machine Learning, and software development. Currently working as an Associate Software Engineer at Techwards, leading product development at Nexus Academy UK, and educating students at SeekMath. I thrive on solving complex problems through elegant code and innovative solutions.</p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-brain"></i>
+                            <div class="stat-info">
+                                <h3>AI/ML</h3>
+                                <p>Enthusiast & Practitioner</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="stat-info">
+                                <h3>CS Graduate</h3>
+                                <p>With Dean's List of Honors</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-rocket"></i>
+                            <div class="stat-info">
+                                <h3>Innovation</h3>
+                                <p>Driven Problem Solver</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Technologies section -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <h2 class="section-title">⚙️ Skills <span>&</span> Technologies</h2>
+                
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category">
+                        <h4 class="category-title">💻 Programming Languages</h4>
+                        <div class="skills-content">
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-desc">AI/ML, Backend APIs, Automation</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-desc">Frontend, Backend, Interactivity</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-desc">OOP, Backend Systems</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-desc">Data Structures, Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development & Frameworks -->
+                    <div class="skill-category">
+                        <h4 class="category-title">🌐 Web Development & Frameworks</h4>
+                        <div class="skills-subcategory">
+                            <h5 class="subcategory-title">Frontend:</h5>
+                            <div class="skills-content">
+                                <div class="skill-item">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-desc">Dynamic UIs, State Management</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">TailwindCSS</span>
+                                    <span class="skill-desc">Modern Styling</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">HTML5, CSS3, JavaScript</span>
+                                    <span class="skill-desc">ES6+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-subcategory">
+                            <h5 class="subcategory-title">Backend:</h5>
+                            <div class="skills-content">
+                                <div class="skill-item">
+                                    <span class="skill-name">Django REST Framework</span>
+                                    <span class="skill-desc">APIs, Authentication, RBAC</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Django</span>
+                                    <span class="skill-desc">MVC Architecture, ORM</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">FastAPI</span>
+                                    <span class="skill-desc">APIs</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">OAuth & JWT</span>
+                                    <span class="skill-desc">Security</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI & Machine Learning -->
+                    <div class="skill-category">
+                        <h4 class="category-title">🤖 AI & Machine Learning</h4>
+                        <div class="skills-subcategory">
+                            <h5 class="subcategory-title">Deep Learning:</h5>
+                            <div class="skills-content">
+                                <span class="skill-badge">TensorFlow</span>
+                                <span class="skill-badge">PyTorch</span>
+                            </div>
+                        </div>
+                        <div class="skills-subcategory">
+                            <h5 class="subcategory-title">NLP:</h5>
+                            <div class="skills-content">
+                                <div class="skill-item">
+                                    <span class="skill-desc">Sentiment Analysis, Text Summarization, AI-driven Note-taking (Gemini AI, NLP APIs)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-subcategory">
+                            <h5 class="subcategory-title">ML Pipelines:</h5>
+                            <div class="skills-content">
+                                <div class="skill-item">
+                                    <span class="skill-name">scikit-learn</span>
+                                    <span class="skill-desc">EDA, Model Building</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Pandas</span>
+                                    <span class="skill-desc">Data Handling</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">NumPy</span>
+                                    <span class="skill-desc">Numerical Computing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-subcategory">
+                            <h5 class="subcategory-title">Real-world Applications:</h5>
+                            <div class="skills-content">
+                                <span class="application-badge">Automated Transcription</span>
+                                <span class="application-badge">AI-Powered Tutoring Features</span>
+                                <span class="application-badge">Sentiment Analysis for Product Reviews</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cloud & DevOps -->
+                    <div class="skill-category">
+                        <h4 class="category-title">☁️ Cloud & DevOps</h4>
+                        <div class="skills-content">
+                            <div class="skill-item">
+                                <span class="skill-name">AWS</span>
+                                <span class="skill-desc">EC2, RDS, S3, IAM</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Docker</span>
+                                <span class="skill-desc">Containerization</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">CI/CD Pipelines</span>
+                                <span class="skill-desc">Automation & Deployment</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Nginx</span>
+                                <span class="skill-desc">Reverse Proxy</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">GitHub Actions</span>
+                                <span class="skill-desc">CI Workflows</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Postman</span>
+                                <span class="skill-desc">API Testing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database Systems -->
+                    <div class="skill-category">
+                        <h4 class="category-title">🗄️ Database Systems</h4>
+                        <div class="skills-content">
+                            <div class="skill-item">
+                                <span class="skill-name">PostgreSQL</span>
+                                <span class="skill-desc">Relational DB</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">SQLite</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Google Sheets API</span>
+                                <span class="skill-desc">Data Integration</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JSON-based Dynamic Data Management</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- APIs & Integration -->
+                    <div class="skill-category">
+                        <h4 class="category-title">🔗 APIs & Integration</h4>
+                        <div class="skills-content">
+                            <div class="skill-item">
+                                <span class="skill-name">RESTful APIs</span>
+                                <span class="skill-desc">Design & Implementation</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">3rd-Party APIs</span>
+                                <span class="skill-desc">Amazon, Gemini AI, NLP Services</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Webhooks</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Microservices</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Development & Architecture -->
+                    <div class="skill-category highlight-category">
+                        <h4 class="category-title">🏗️ Product Development & Architecture</h4>
+                        <div class="skills-content">
+                            <div class="achievement-item">
+                                <span class="achievement-title">Full-stack development of AI-powered Learning Management System for Nexus Academy</span>
+                            </div>
+                            <div class="achievement-item">
+                                <span class="achievement-title">End-to-end workflow automation for administrative processes</span>
+                            </div>
+                            <div class="achievement-item">
+                                <span class="achievement-title">Cloud Deployment & Scaling: AWS EC2, RDS, S3</span>
+                            </div>
+                            <div class="achievement-item">
+                                <span class="achievement-title">Role-based access control for multi-user platforms (Students, Teachers, Admins)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills & Leadership -->
+                    <div class="skill-category soft-skills-category">
+                        <h4 class="category-title">🌟 Soft Skills & Leadership</h4>
+                        <div class="skills-content">
+                            <div class="soft-skill-item">
+                                <span class="soft-skill-icon">🧠</span>
+                                <div class="soft-skill-content">
+                                    <span class="soft-skill-name">Problem-Solving</span>
+                                    <span class="soft-skill-desc">Breaking down complex challenges into elegant solutions</span>
+                                </div>
+                            </div>
+                            <div class="soft-skill-item">
+                                <span class="soft-skill-icon">🫱</span>
+                                <div class="soft-skill-content">
+                                    <span class="soft-skill-name">Team Leadership</span>
+                                    <span class="soft-skill-desc">Led product development for Nexus Academy; collaborated cross-functionally at Techwards</span>
+                                </div>
+                            </div>
+                            <div class="soft-skill-item">
+                                <span class="soft-skill-icon">🏗️</span>
+                                <div class="soft-skill-content">
+                                    <span class="soft-skill-name">System Design</span>
+                                    <span class="soft-skill-desc">Architected scalable, maintainable backend systems</span>
+                                </div>
+                            </div>
+                            <div class="soft-skill-item">
+                                <span class="soft-skill-icon">🎙️</span>
+                                <div class="soft-skill-content">
+                                    <span class="soft-skill-name">Communication</span>
+                                    <span class="soft-skill-desc">Translate technical jargon into clear, actionable insights for stakeholders</span>
+                                </div>
+                            </div>
+                            <div class="soft-skill-item">
+                                <span class="soft-skill-icon">🎯</span>
+                                <div class="soft-skill-content">
+                                    <span class="soft-skill-name">Continuous Learning</span>
+                                    <span class="soft-skill-desc">Thrive on staying ahead of trends in AI, cloud, and modern web development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Optional Tagline -->
+                    <div class="tagline-section">
+                        <div class="tagline-content">
+                            <h4 class="tagline-title">🌟 From Vision to Reality</h4>
+                            <p class="tagline-text">"From building AI-powered learning platforms to deploying scalable APIs on the cloud, I turn ideas into impactful software solutions—always learning, always growing."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience section -->
+        <section id="experience" class="experience-section">
+            <div class="section-container">
+                <h2 class="section-title">Work <span>Experience</span></h2>
+                <div class="timeline-container">
+                    <div class="timeline-wrapper">
+                        <div class="timeline">
+                            <!-- Timeline item 1 -->
+                            <div class="timeline-item" tabindex="0">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content slide-in">
+                                    <div class="timeline-header">
+                                        <h3>Associate Software Engineer</h3>
+                                        <div class="company-info">
+                                            <span class="company">Techwards</span>
+                                            <span class="time-period">2024 – Present</span>
+                                        </div>
+                                        <button class="toggle-btn" aria-label="Toggle details">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
+                                    </div>
+                                    <div class="timeline-details">
+                                        <ul>
+                                            <li>Lead backend and API development using Python and Django Rest Framework.</li>
+                                            <li>Collaborate on AI-powered application features and product enhancements.</li>
+                                            <li>Develop and maintain microservices architecture.</li>
+                                            <li>Implement CI/CD pipelines for automated testing and deployment.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Timeline item 2 -->
+                            <div class="timeline-item" tabindex="0">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content slide-in">
+                                    <div class="timeline-header">
+                                        <h3>Product Development Lead</h3>
+                                        <div class="company-info">
+                                            <span class="company">Nexus Academy UK</span>
+                                            <span class="time-period">2024 – Present</span>
+                                        </div>
+                                        <button class="toggle-btn" aria-label="Toggle details">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
+                                    </div>
+                                    <div class="timeline-details">
+                                        <ul>
+                                            <li>Develop and maintain an interactive learning management system with React and Django.</li>
+                                            <li>Integrate AI/ML features to improve student learning experience.</li>
+                                            <li>Lead a team of 5 developers in agile development cycles.</li>
+                                            <li>Coordinate with stakeholders to align product development with business goals.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Timeline item 3 - Beats by Dre Internship -->
+                            <div class="timeline-item" tabindex="0">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content slide-in">
+                                    <div class="timeline-header">
+                                        <h3>Data Analytics and Consumer Insights Intern</h3>
+                                        <div class="company-info">
+                                            <span class="company">Beats by Dre</span>
+                                            <span class="time-period">Aug 2024 – Oct 2024</span>
+                                        </div>
+                                        <button class="toggle-btn" aria-label="Toggle details">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
+                                    </div>
+                                    <div class="timeline-details">
+                                        <ul>
+                                            <li>Gathered and cleaned data by scraping reviews from Amazon using APIs.</li>
+                                            <li>Performed Exploratory Data Analysis (EDA) to uncover patterns and trends in large datasets.</li>
+                                            <li>Applied advanced Natural Language Processing (NLP) tools, including Gemini AI, to analyze and summarize customer feedback.</li>
+                                            <li>Developed and utilized data visualization tools to communicate insights that supported strategic brand-building decisions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Timeline item 4 -->
+                            <div class="timeline-item" tabindex="0">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content slide-in">
+                                    <div class="timeline-header">
+                                        <h3>Educator</h3>
+                                        <div class="company-info">
+                                            <span class="company">SeekMath</span>
+                                            <span class="time-period">2024 – Present</span>
+                                        </div>
+                                        <button class="toggle-btn" aria-label="Toggle details">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
+                                    </div>
+                                    <div class="timeline-details">
+                                        <ul>
+                                            <li>Deliver live online lessons in Mathematics, Physics, and Computer Science.</li>
+                                            <li>Customize teaching approaches to fit individual student needs.</li>
+                                            <li>Develop interactive teaching materials and coding exercises.</li>
+                                            <li>Provide mentorship to students pursuing careers in tech.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card" data-project="project1">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <div class="project-image-placeholder">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Smart Tutoring LMS</h3>
+                                <p class="project-description">A full-stack learning management system with React frontend and Django REST API backend.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">React</span>
+                                    <span class="tech-badge">Django</span>
+                                    <span class="tech-badge">AI</span>
+                                    <span class="tech-badge">Python</span>
+                                </div>
+                                <button class="view-details-btn" aria-label="View Smart Tutoring LMS project details">
+                                    View Details <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="project-card" data-project="project2">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <div class="project-image-placeholder">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Customer Review Sentiment Analyzer</h3>
+                                <p class="project-description">Data analysis project scraping Amazon reviews and applying NLP techniques with Gemini AI.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">NLP</span>
+                                    <span class="tech-badge">Gemini AI</span>
+                                    <span class="tech-badge">Data Analysis</span>
+                                </div>
+                                <button class="view-details-btn" aria-label="View Customer Review Sentiment Analyzer project details">
+                                    View Details <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="project-card" data-project="project3">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <div class="project-image-placeholder">
+                                    <i class="fas fa-chalkboard"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Interactive Educational Platform</h3>
+                                <p class="project-description">Live remote teaching platform delivering personalized lessons in Math, Physics, and CS.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">WebRTC</span>
+                                    <span class="tech-badge">Node.js</span>
+                                    <span class="tech-badge">MongoDB</span>
+                                </div>
+                                <button class="view-details-btn" aria-label="View Interactive Educational Platform project details">
+                                    View Details <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 4 - Virtual Knowledge Distillation -->
+                    <div class="project-card" data-project="project4">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <div class="project-image-placeholder">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Virtual Knowledge Distillation</h3>
+                                <p class="project-description">Implementation of a research paper using Conditional GANs for model compression in deep learning.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">PyTorch</span>
+                                    <span class="tech-badge">Deep Learning</span>
+                                    <span class="tech-badge">GANs</span>
+                                    <span class="tech-badge">Python</span>
+                                </div>
+                                <button class="view-details-btn" aria-label="View Virtual Knowledge Distillation project details">
+                                    View Details <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 5 - Unified Gesture and Fingertip Detection -->
+                    <div class="project-card" data-project="project5">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <div class="project-image-placeholder">
+                                    <i class="fas fa-hand-paper"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Unified Gesture Recognition</h3>
+                                <p class="project-description">Unified CNN approach for real-time hand gesture recognition and fingertip detection in egocentric vision.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">TensorFlow</span>
+                                    <span class="tech-badge">Computer Vision</span>
+                                    <span class="tech-badge">YOLO</span>
+                                    <span class="tech-badge">Python</span>
+                                </div>
+                                <button class="view-details-btn" aria-label="View Unified Gesture Recognition and Fingertip Detection project details">
+                                    View Details <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 6 -->
+                    <div class="project-card" data-project="project6">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <div class="project-image-placeholder">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">IoT Environmental Sensor Dashboard</h3>
+                                <p class="project-description">A modern, scientific-themed dashboard for visualizing environmental sensor data from IoT devices connected to ThingSpeak.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">HTML5</span>
+                                    <span class="tech-badge">CSS3</span>
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">Tailwind CSS</span>
+                                    <span class="tech-badge">Chart.js</span>
+                                    <span class="tech-badge">FileSaver.js</span>
+                                    <span class="tech-badge">ThingSpeak API</span>
+                                    <span class="tech-badge">IoT</span>
+                                    <span class="tech-badge">ESP8266</span>
+                                </div>
+                                <button class="view-details-btn" aria-label="View IoT Environmental Sensor Dashboard project details">
+                                    View Details <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 7 - Titanic Data Analysis -->
+                    <div class="project-card" data-project="project7">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <div class="project-image-placeholder">
+                                    <i class="fas fa-ship"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Titanic Data Analysis</h3>
+                                <p class="project-description">Comprehensive analysis of the Titanic dataset using data preprocessing and feature selection techniques.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Pandas</span>
+                                    <span class="tech-badge">Scikit-learn</span>
+                                    <span class="tech-badge">Data Science</span>
+                                </div>
+                                <button class="view-details-btn" aria-label="View Titanic Data Analysis project details">
+                                    View Details <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 8 - Tic-Tac-Toe Game -->
+                    <div class="project-card" data-project="project8">
+                        <div class="project-card-inner">
+                            <div class="project-image">
+                                <div class="project-image-placeholder">
+                                    <i class="fas fa-gamepad"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Tic-Tac-Toe Game</h3>
+                                <p class="project-description">Interactive two-player Tic-Tac-Toe game with graphical user interface built using Python and Tkinter.</p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Tkinter</span>
+                                    <span class="tech-badge">GUI</span>
+                                    <span class="tech-badge">Game Development</span>
+                                </div>
+                                <button class="view-details-btn" aria-label="View Tic-Tac-Toe Game project details">
+                                    View Details <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Modals -->
+            <div class="modal-container" id="project-modal-container">
+                <!-- Modal 1 -->
+                <div class="project-modal" id="project1-modal">
+                    <div class="modal-content">
+                        <button class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+                        <h2 class="modal-title">Smart Tutoring LMS</h2>
+                        
+                        <div class="modal-gallery">
+                            <!-- Gallery placeholder -->
+                            <div class="modal-image-placeholder">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-details">
+                            <div class="modal-description">
+                                <h3>Project Overview</h3>
+                                <p>A comprehensive learning management system designed to streamline the online tutoring experience. The platform connects students with tutors and provides AI-powered tools to enhance learning outcomes.</p>
+                                
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>AI-powered session transcription for automatic note-taking</li>
+                                    <li>Sentiment analysis to gauge student engagement and understanding</li>
+                                    <li>Personalized study plans based on performance analytics</li>
+                                    <li>Interactive whiteboard with real-time collaboration</li>
+                                    <li>Scheduling system with automated reminders</li>
+                                </ul>
+                                
+                                <h3>Technical Challenges & Solutions</h3>
+                                <p>The main challenge was integrating various AI services while maintaining a responsive user experience. This was solved by implementing a microservices architecture with a React frontend for smooth interactions and a Django REST API backend for robust business logic handling.</p>
+                            </div>
+                            
+                            <div class="modal-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-badges-container">
+                                    <span class="tech-badge">React</span>
+                                    <span class="tech-badge">Redux</span>
+                                    <span class="tech-badge">Django</span>
+                                    <span class="tech-badge">PostgreSQL</span>
+                                    <span class="tech-badge">Docker</span>
+                                    <span class="tech-badge">AWS</span>
+                                    <span class="tech-badge">WebSockets</span>
+                                    <span class="tech-badge">TensorFlow</span>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-links">
+                                <a href="#" class="modal-btn github-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                                <a href="#" class="modal-btn demo-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal 2 -->
+                <div class="project-modal" id="project2-modal">
+                    <div class="modal-content">
+                        <button class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+                        <h2 class="modal-title">Customer Review Sentiment Analyzer</h2>
+                        
+                        <div class="modal-gallery">
+                            <!-- Gallery placeholder -->
+                            <div class="modal-image-placeholder">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-details">
+                            <div class="modal-description">
+                                <h3>Project Overview</h3>
+                                <p>A data analysis tool that scrapes customer reviews from Amazon and applies Natural Language Processing techniques to analyze sentiment and extract actionable insights for businesses.</p>
+                                
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Automated web scraping of product reviews from multiple sources</li>
+                                    <li>Sentiment analysis using advanced NLP models</li>
+                                    <li>Topic modeling to identify common themes in reviews</li>
+                                    <li>Interactive dashboards visualizing sentiment trends over time</li>
+                                    <li>Comparative analysis between products or brands</li>
+                                </ul>
+                                
+                                <h3>Technical Challenges & Solutions</h3>
+                                <p>The primary challenge was processing large volumes of text data efficiently while maintaining accuracy in sentiment detection. By leveraging Gemini AI's powerful language models and implementing a robust caching system, we achieved both speed and precision in analyzing thousands of reviews simultaneously.</p>
+                            </div>
+                            
+                            <div class="modal-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-badges-container">
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Gemini AI</span>
+                                    <span class="tech-badge">NLP</span>
+                                    <span class="tech-badge">BeautifulSoup</span>
+                                    <span class="tech-badge">Pandas</span>
+                                    <span class="tech-badge">Matplotlib</span>
+                                    <span class="tech-badge">Flask</span>
+                                    <span class="tech-badge">D3.js</span>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-links">
+                                <a href="#" class="modal-btn github-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                                <a href="#" class="modal-btn demo-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal 3 -->
+                <div class="project-modal" id="project3-modal">
+                    <div class="modal-content">
+                        <button class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+                        <h2 class="modal-title">Interactive Educational Platform</h2>
+                        
+                        <div class="modal-gallery">
+                            <!-- Gallery placeholder -->
+                            <div class="modal-image-placeholder">
+                                <i class="fas fa-chalkboard"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-details">
+                            <div class="modal-description">
+                                <h3>Project Overview</h3>
+                                <p>A comprehensive platform designed for remote teaching and learning, with a focus on delivering personalized, interactive lessons in Mathematics, Physics, and Computer Science.</p>
+                                
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Real-time video conferencing with low latency</li>
+                                    <li>Interactive whiteboard with mathematical equation support</li>
+                                    <li>Code editor with syntax highlighting and real-time collaboration</li>
+                                    <li>Quiz and assignment system with automated grading</li>
+                                    <li>Progress tracking and personalized learning paths</li>
+                                </ul>
+                                
+                                <h3>Technical Challenges & Solutions</h3>
+                                <p>The biggest challenge was creating a platform that worked seamlessly across different devices and internet connections while maintaining interactive features. We implemented WebRTC for peer-to-peer connections and developed a fallback system that adapts to available bandwidth, ensuring a smooth experience even on slower connections.</p>
+                            </div>
+                            
+                            <div class="modal-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-badges-container">
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">WebRTC</span>
+                                    <span class="tech-badge">Node.js</span>
+                                    <span class="tech-badge">MongoDB</span>
+                                    <span class="tech-badge">Socket.io</span>
+                                    <span class="tech-badge">Canvas API</span>
+                                    <span class="tech-badge">MathJax</span>
+                                    <span class="tech-badge">CodeMirror</span>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-links">
+                                <a href="#" class="modal-btn github-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                                <a href="#" class="modal-btn demo-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal 4 - Virtual Knowledge Distillation -->
+                <div class="project-modal" id="project4-modal">
+                    <div class="modal-content">
+                        <button class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+                        <h2 class="modal-title">Virtual Knowledge Distillation</h2>
+                        
+                        <div class="modal-gallery">
+                            <!-- Gallery placeholder -->
+                            <div class="modal-image-placeholder">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-details">
+                            <div class="modal-description">
+                                <h3>Project Overview</h3>
+                                <p>An implementation of the research paper "A Virtual Knowledge Distillation via Conditional GAN" by Sihwan Kim. This project uses a Conditional GAN framework to facilitate knowledge transfer between a large teacher model (ResNet-50) and a smaller student model (ResNet-18), enabling efficient deployment of deep learning models without compromising accuracy.</p>
+                                
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Conditional GAN-based knowledge distillation architecture</li>
+                                    <li>Synthesizes feature representations to bridge the gap between teacher and student models</li>
+                                    <li>Reduces dependency on large datasets through feature generation</li>
+                                    <li>Achieves model compression while maintaining comparable performance</li>
+                                    <li>Complete implementation in Jupyter Notebook with training and evaluation modules</li>
+                                </ul>
+                                
+                                <h3>Technical Challenges & Solutions</h3>
+                                <p>The main challenge was designing an effective generator that could synthesize high-quality feature representations for the student model. We implemented a carefully tuned Conditional GAN architecture that successfully captured the complex distribution of features from the teacher model. This approach enabled knowledge transfer without direct access to the original dataset, making it an efficient solution for model compression and deployment in resource-constrained environments.</p>
+                            </div>
+                            
+                            <div class="modal-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-badges-container">
+                                    <span class="tech-badge">PyTorch</span>
+                                    <span class="tech-badge">torchvision</span>
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Jupyter Notebook</span>
+                                    <span class="tech-badge">Deep Learning</span>
+                                    <span class="tech-badge">GANs</span>
+                                    <span class="tech-badge">ResNet</span>
+                                    <span class="tech-badge">numpy</span>
+                                    <span class="tech-badge">matplotlib</span>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-links">
+                                <a href="https://github.com/HassaanKhaskheli/Virtual-Knowledge-Distillation-Paper-Implementation" class="modal-btn github-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 5 - Unified Gesture and Fingertip Detection -->
+                <div class="project-modal" id="project5-modal">
+                    <div class="modal-content">
+                        <button class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+                        <h2 class="modal-title">Unified Gesture Recognition & Fingertip Detection</h2>
+                        
+                        <div class="modal-gallery">
+                            <!-- Gallery placeholder -->
+                            <div class="modal-image-placeholder">
+                                <i class="fas fa-hand-paper"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-details">
+                            <div class="modal-description">
+                                <h3>Project Overview</h3>
+                                <p>An implementation of a unified convolutional neural network (CNN) algorithm for simultaneous hand gesture recognition and fingertip detection in egocentric vision. This project is based on a research paper published in Pattern Recognition journal, which presents a novel approach where a single network predicts both finger class probabilities for classification and fingertip positions for regression in one evaluation.</p>
+                                
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Robust real-time hand detection using YOLO (You Only Look Once)</li>
+                                    <li>Unified network that performs both classification and regression tasks</li>
+                                    <li>Ensemble approach for fingertip position detection from a fully convolutional network</li>
+                                    <li>Support for 8 different hand gesture classes</li>
+                                    <li>Real-time processing capability with webcam input</li>
+                                    <li>Comprehensive visualization tools for model outputs</li>
+                                </ul>
+                                
+                                <h3>Technical Challenges & Solutions</h3>
+                                <p>The main challenge was developing a single model that could simultaneously handle the classification task (gesture recognition) and the regression task (fingertip detection) with high accuracy. The solution involved a two-stage approach: first detecting the hand using YOLO, then passing the cropped hand image to the unified CNN model. Instead of directly regressing fingertip positions from fully connected layers, we implemented an ensemble approach from a fully convolutional network, achieving better localization accuracy while maintaining real-time performance.</p>
+                            </div>
+                            
+                            <div class="modal-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-badges-container">
+                                    <span class="tech-badge">TensorFlow</span>
+                                    <span class="tech-badge">OpenCV</span>
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">YOLO</span>
+                                    <span class="tech-badge">CNN</span>
+                                    <span class="tech-badge">Computer Vision</span>
+                                    <span class="tech-badge">ImgAug</span>
+                                    <span class="tech-badge">Keras</span>
+                                    <span class="tech-badge">NumPy</span>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-links">
+                                <a href="https://github.com/Sarim-uk/Unified-Gesture-and-Fingertip-Detection" class="modal-btn github-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                                <a href="https://www.sciencedirect.com/science/article/pii/S0031320321003824" class="modal-btn demo-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i> View Paper
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 6 - Environmental Sensor Dashboard -->
+                <div class="project-modal" id="project6-modal">
+                    <div class="modal-content">
+                        <button class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+                        <h2 class="modal-title">IoT Environmental Sensor Dashboard</h2>
+                        
+                        <div class="modal-gallery">
+                            <!-- Gallery placeholder -->
+                            <div class="modal-image-placeholder">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-details">
+                            <div class="modal-description">
+                                <h3>Project Overview</h3>
+                                <p>A modern, scientific-themed dashboard for visualizing environmental sensor data from IoT devices connected to ThingSpeak. This client-side, single-page web application provides real-time monitoring of temperature, humidity, and gas sensor readings with an intuitive and responsive interface.</p>
+                                
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Real-time sensor monitoring with animated gauges for temperature, humidity, and gas levels</li>
+                                    <li>Interactive historical data charts showing trends over 24 hours, 7 days, or 30 days</li>
+                                    <li>Data export functionality to CSV format for offline analysis</li>
+                                    <li>Configurable settings with ThingSpeak channel ID and API key stored in browser localStorage</li>
+                                    <li>Dark scientific theme with futuristic UI elements inspired by scientific instruments</li>
+                                    <li>Full ESP8266 integration with DHT11 and MQ gas sensors</li>
+                                    <li>Responsive design for seamless usage across mobile, tablet, and desktop devices</li>
+                                </ul>
+                                
+                                <h3>Technical Challenges & Solutions</h3>
+                                <p>The main challenge was creating a responsive, real-time dashboard that could fetch and visualize IoT sensor data without any backend dependencies. I implemented a solution using the ThingSpeak REST API for data retrieval, Chart.js for interactive visualizations, and client-side storage for persistent configurations. The dashboard also includes sophisticated error handling for network issues and data validation to ensure consistent display even with intermittent sensor readings.</p>
+                            </div>
+                            
+                            <div class="modal-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-badges-container">
+                                    <span class="tech-badge">HTML5</span>
+                                    <span class="tech-badge">CSS3</span>
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">Tailwind CSS</span>
+                                    <span class="tech-badge">Chart.js</span>
+                                    <span class="tech-badge">FileSaver.js</span>
+                                    <span class="tech-badge">ThingSpeak API</span>
+                                    <span class="tech-badge">IoT</span>
+                                    <span class="tech-badge">ESP8266</span>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-links">
+                                <a href="https://github.com/Sarim-uk/Environmental-Sensor-Dashboard" class="modal-btn github-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 7 - Titanic Data Analysis -->
+                <div class="project-modal" id="project7-modal">
+                    <div class="modal-content">
+                        <button class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+                        <h2 class="modal-title">Titanic Data Analysis</h2>
+                        
+                        <div class="modal-gallery">
+                            <!-- Gallery placeholder -->
+                            <div class="modal-image-placeholder">
+                                <i class="fas fa-ship"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-details">
+                            <div class="modal-description">
+                                <h3>Project Overview</h3>
+                                <p>A comprehensive data science project that analyzes the historical Titanic dataset to identify the most significant factors that influenced passenger survival. The analysis employs various data preprocessing and feature selection techniques to extract meaningful insights from this well-known dataset.</p>
+                                
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Systematic data preprocessing pipeline including handling missing values and feature encoding</li>
+                                    <li>Multiple feature selection techniques including correlation analysis, statistical methods, and PCA</li>
+                                    <li>In-depth analysis of factors affecting survival rates (gender, class, fare, age)</li>
+                                    <li>Visualization of data patterns and correlations using matplotlib and seaborn</li>
+                                    <li>Statistical validation of findings using ANOVA F-value and Chi-Square tests</li>
+                                    <li>Well-documented Jupyter notebooks with clear explanations of methodologies</li>
+                                </ul>
+                                
+                                <h3>Technical Challenges & Solutions</h3>
+                                <p>The main challenge was dealing with the dataset's missing values and converting categorical variables to a format suitable for analysis. I implemented a robust preprocessing pipeline that handles missing age values through mean imputation and missing embarkation points through mode imputation. For categorical variables, I applied one-hot encoding for embarkation ports and label encoding for gender. The feature selection process required implementing and comparing multiple techniques to identify the truly significant factors, revealing that gender, passenger class, and fare were the most important predictors of survival.</p>
+                            </div>
+                            
+                            <div class="modal-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-badges-container">
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Jupyter Notebook</span>
+                                    <span class="tech-badge">Pandas</span>
+                                    <span class="tech-badge">NumPy</span>
+                                    <span class="tech-badge">Matplotlib</span>
+                                    <span class="tech-badge">Seaborn</span>
+                                    <span class="tech-badge">Scikit-learn</span>
+                                    <span class="tech-badge">Statistical Analysis</span>
+                                    <span class="tech-badge">Feature Engineering</span>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-links">
+                                <a href="https://github.com/Sarim-uk/Titanic_Data_Analysis" class="modal-btn github-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 8 - Tic-Tac-Toe Game -->
+                <div class="project-modal" id="project8-modal">
+                    <div class="modal-content">
+                        <button class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+                        <h2 class="modal-title">Tic-Tac-Toe Game</h2>
+                        
+                        <div class="modal-gallery">
+                            <!-- Gallery placeholder -->
+                            <div class="modal-image-placeholder">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-details">
+                            <div class="modal-description">
+                                <h3>Project Overview</h3>
+                                <p>A classic two-player Tic-Tac-Toe game implemented with Python and the Tkinter GUI library. The game features a clean, user-friendly interface where players take turns placing their symbols (X or O) on a 3x3 grid, with automatic win detection and game state management.</p>
+                                
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Interactive 3x3 grid interface with clickable cells</li>
+                                    <li>Two-player gameplay with alternating turns</li>
+                                    <li>Automatic detection of winning conditions (horizontal, vertical, diagonal)</li>
+                                    <li>Draw detection when the grid is filled without a winner</li>
+                                    <li>Game state feedback through status messages</li>
+                                    <li>Clean visual design with distinct player symbols</li>
+                                </ul>
+                                
+                                <h3>Technical Challenges & Solutions</h3>
+                                <p>The main challenge was implementing the game logic and integrating it seamlessly with the graphical interface. I created a structured approach to track the game state and handle player interactions through event-driven programming. The win detection algorithm efficiently checks all possible winning combinations after each move. I also implemented proper event handling to ensure a smooth user experience, with clear visual feedback for each action and game outcome.</p>
+                            </div>
+                            
+                            <div class="modal-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-badges-container">
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Tkinter</span>
+                                    <span class="tech-badge">GUI Development</span>
+                                    <span class="tech-badge">Event-Driven Programming</span>
+                                    <span class="tech-badge">Game Logic</span>
+                                    <span class="tech-badge">OOP</span>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-links">
+                                <a href="https://github.com/Sarim-uk/Tic-Tac-Toe-with-Python-and-Tkinter" class="modal-btn github-btn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Download Section -->
+        <section id="resume" class="resume-section">
+            <div class="binary-rain"></div>
+            <div class="section-container">
+                <h2 class="resume-title">
+                    Grab My <span class="highlight">Resume</span> and Let's Build the <span class="highlight">Future!</span>
+                </h2>
+                
+                <div class="resume-content">
+                    <div class="download-container">
+                        <!-- Main Download Button -->
+                        <button id="download-btn" class="download-btn" data-tooltip="My future in one click!">
+                            <div class="btn-background"></div>
+                            <div class="btn-content">
+                                <i class="fas fa-download"></i>
+                                <span class="btn-text">Download My CV 🚀</span>
+                            </div>
+                            <div class="btn-glow"></div>
+                        </button>
+                        
+                        <!-- Progress Indicator -->
+                        <div id="download-progress" class="download-progress">
+                            <div class="progress-container">
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <div class="progress-text">
+                                    <span class="loading-text">Downloading</span>
+                                    <span class="dots">...</span>
+                                    <span class="percentage">0%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Success Message -->
+                        <div id="download-success" class="download-success">
+                            <div class="success-animation">
+                                <i class="fas fa-check-circle"></i>
+                                <p>✨ Resume downloaded! Let's create magic together!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Interactive Resume Preview Card (Click to view online) -->
+                    <div class="resume-preview">
+                        <a href="https://sarimukhan.tiiny.site/" target="_blank" rel="noopener noreferrer" class="preview-card-link" aria-label="Click to view resume online">
+                            <div class="preview-card">
+                                <div class="preview-header">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>Sarim_Resume.pdf</span>
+                                </div>
+                                <div class="preview-content">
+                                    <div class="preview-lines">
+                                        <div class="line long"></div>
+                                        <div class="line medium"></div>
+                                        <div class="line short"></div>
+                                        <div class="line long"></div>
+                                        <div class="line medium"></div>
+                                    </div>
+                                </div>
+                                <div class="preview-footer">
+                                    <span class="file-size">245 KB</span>
+                                    <span class="file-type">PDF</span>
+                                </div>
+                                <div class="preview-overlay">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>View Online</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <h2 class="section-title">Let's Connect and Build the <span>Future!</span></h2>
+                
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required aria-label="Your name">
+                                <span class="form-error" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required aria-label="Your email address">
+                                <span class="form-error" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required aria-label="Your message"></textarea>
+                                <span class="form-error" id="message-error"></span>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <span class="btn-text">Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        
+                        <!-- Success message -->
+                        <div id="success-message" class="success-message">
+                            <div class="success-content">
+                                <i class="fas fa-check-circle"></i>
+                                <p>🎉 Message sent! Looking forward to collaborating with you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="social-links">
+                            <h3>Connect with me</h3>
+                            <div class="social-icons">
+                                <a href="https://linkedin.com/in/sarimuk" target="_blank" rel="noopener noreferrer" class="social-icon" data-tooltip="Let's Connect!">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/Sarim-uk" target="_blank" rel="noopener noreferrer" class="social-icon" data-tooltip="Check out my code!">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="mailto:sarim.uk@outlook.com" class="social-icon" data-tooltip="Send me an email!">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Fun Dark Mode Toggle -->
+                        <div class="dark-mode-toggle">
+                            <h3>Settings</h3>
+                            <div class="toggle-container">
+                                <label class="toggle-label">
+                                    <span class="toggle-text">Dark Mode:</span>
+                                    <div class="toggle-switch">
+                                        <input type="checkbox" id="dark-mode-toggle" checked>
+                                        <span class="slider"></span>
+                                    </div>
+                                    <span class="toggle-status">On</span>
+                                </label>
+                            </div>
+                            <div id="toggle-message" class="toggle-message">
+                                Haha! We're already in the cool mode 😎
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer class="footer">
+            <div class="starfield"></div>
+            <div class="footer-content">
+                <p>&copy; 2025 Sarim U. Khan. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Floating Easter Egg -->
+    <div id="floating-easter-egg" class="floating-easter-egg" tabindex="0" role="button" aria-label="Mysterious floating element - click to discover a secret!" data-tooltip="What's this?">
+        <div class="easter-egg-core"></div>
+        <div class="easter-egg-glow"></div>
+        <div class="easter-egg-ring"></div>
+    </div>
+
+    <!-- Easter Egg Surprise Modal -->
+    <div id="easter-egg-modal" class="easter-egg-modal" role="dialog" aria-labelledby="easter-egg-title" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="easter-egg-content">
+            <button class="easter-egg-close" aria-label="Close surprise message">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="easter-egg-header">
+                <i class="fas fa-rocket"></i>
+                <h3 id="easter-egg-title">Secret Discovered! 🎉</h3>
+            </div>
+            <div class="easter-egg-body">
+                <p id="easter-egg-message"></p>
+                <div class="easter-egg-animation">
+                    <div class="floating-particles">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="easter-egg-footer">
+                <button class="easter-egg-another-btn">Another Secret! 🔮</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
